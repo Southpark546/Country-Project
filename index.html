@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexico Stuff</title>
+
+</head>
+<body>
+<div>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header{
+            background-color: #006847;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .fact-card{
+            flex-basis: calc(40% - 20px);
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+        }
+        .fact-card img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+		
+        }
+        #flag{
+            width: 100px;
+            vertical-align: middle;
+        }
+    </style>
+	</div>
+	<div>
+    <header>
+        <h1>Mexico <img id="flag" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Mexican Flag"></h1>
+		<h3>(click on an image to go there!)</h3>
+    </header>
+    <div class="container">
+        <div class="flex-container">
+            <div class="fact-card">
+                <h2>History</h2>
+				<p>
+				<a href="page1.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Chichen_Itza_3.jpg" alt="chichen Itza">
+				</a>
+				</p>
+                <p>Mexico is home to ancient civilizations like the Maya and Aztec, with impressive structures like Chichen Itza.</p>
+            </div>
+            <div class="fact-card">
+                <h2>Biodiversity</h2>
+              <a href="page2.html">  <img src="https://th.bing.com/th/id/OIP.7D_1YJF7eV1H6gP2yF_5SwHaE8?rs=1&pid=ImgDetMain" alt="Monarch Butterfly">
+			  </a>
+                <p>Mexico is one of the world's most biodiverse countries, hosting 10-12% of global biodiversity.</p>
+            </div>
+            <div class="fact-card">
+                <h2> Food </h2>
+				<a href="page3.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg" alt="Mexican Tacos">
+				</a>
+                <p>Mexican cuisine is known worldwide, with dishes like tacos, guacamole, and mole recognized globally.</p>
+            </div>
+            <div class="fact-card">
+                <h2>Day of the Dead</h2>
+				<a href="page4.html">
+                <img src="https://th.bing.com/th/id/OIP.oDW2cqTMMFY5bRpu9xxkugHaE8?rs=1&pid=ImgDetMain" alt="Day of the Dead">
+				</a>
+                <p>The colorful Day of the Dead festival honors deceased loved ones and is recognized by UNESCO.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+	</div>
+</body>
+</html>

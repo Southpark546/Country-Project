@@ -1,0 +1,103 @@
+/* External CSS */
+body{
+  font-family:Arial;
+}
+a{
+  text-decoration:none;
+}
+
+/* Make #click_me look like a button */
+nav{
+  padding:5px;
+  display:flex;
+  flex:1
+  
+}
+nav a{
+  color:black;
+  margin:0 10px 0 10px;
+  text-align:center;
+  jusitfy-content:center;
+  color:white;
+}
+
+}
+/* Start here: Style the banner (black background, white text, padding 10px, centered text) */
+
+
+/* When user mouses over the click_me link, set text to white. Why does it not work? */
+
+/* How can you override CSS specificity (inline > id > class > element) ?
+   
+*/
+<style>
+  .container{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #006847;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .fact-card {
+            flex-basis: calc(33.33% - 20px);
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .fact-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        #flag {
+            width: 100px;
+            vertical-align: middle;
+        }
+.card {
+	display: block;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border-radius: 8px;
+	text-decoration: none;
+	color: inherit;
+	transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#weiner{
+	border-color:green;
+	border-style:solid;
+	border-weight:5px:background;
+	display:flex;
+	flex:2;
+	margin:0 10px 0 10px;
+	text-align:center;
+	jusitfy-content:center;
+}
+	
+	
+#links{
+	text-align:center;
+	jusitfy-content:center;
+}
+	</style>
